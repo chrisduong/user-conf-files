@@ -2,4 +2,8 @@
 <h2>Tmux</h2>
 <h3>Implementations</h3>
 <h3>Issues</h3>
-For nested session: X11 forwarding is needed and inner session must be run in copy-mode and use the same DISPLAY env (e.g. export DISPLAY='localhost:10.0')
+For nested session: 
+- X11 forwarding is needed and inner session must be run in copy-mode and use the same DISPLAY env (e.g. export DISPLAY='localhost:10.0')
+- TERM variable not passed: TERM environment variable not set.
+
+
