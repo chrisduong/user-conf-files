@@ -80,7 +80,9 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias rsync_su="rsync -rvz --rsync-path='sudo rsync'  --exclude='.git' "
+alias rsync-ignore="rsync-copy  --exclude='.git' "
+alias rsync-su="rsync -rvz --rsync-path='sudo rsync'  --exclude='.git' "
 
 # Source Chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/bin/virtualenvwrapper.sh
