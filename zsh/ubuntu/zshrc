@@ -83,6 +83,7 @@ export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 alias rsync-ignore="rsync-copy  --exclude='.git' "
 alias rsync-su="rsync -rvz --rsync-path='sudo rsync'  --exclude='.git' "
 
-# Source Chruby
-source /usr/local/opt/chruby/share/chruby/chruby.sh
+# Sourcing extra tools
+source /usr/local/share/chruby/chruby.sh
+
 source /usr/local/bin/virtualenvwrapper.sh
